@@ -1,0 +1,61 @@
+.box {
+  color: white;
+  font-size: 100px;
+  height: 130px;
+  width: 130px;
+  text-align: center;
+  text-shadow: 4px 4px 0 rgba(0, 0, 0, 1);
+  padding: 10px;
+}
+
+.box1 { background: #1abc9c }
+.box2 { background: #3498db }
+.box3 { background: #9b59b6 }
+.box4 { background: #34495e }
+.box5 { background: #f1c40f }
+.box6 { background: #e67222 }
+.box7 { background: #e74c3c }
+.box8 { background: #16a08e }
+.box9 { background: #ffe4e1 }
+.box0 { background: #2ecc71 }
+
+.container {
+  display: -webkit-box; /* safari */
+  display: -ms-flexbox; /* IE */
+  display: flex; /* chrome/mozilla */
+  /* display: inline-flex; */
+  /*flex-direction: row*/
+  /* flex-direction: column; */
+  /*flex-direction: row-reverse;*/
+  /*flex-direction: column-reverse;*/
+  /* flex-wrap: nowrap; */
+  flex-wrap: wrap;
+  /* flex-wrap: wrap-reverse; */
+  /* justify-content: flex-start; */
+  /* justify-content: flex-end; */
+  /*justify-content: center;*/
+  /*justify-content: space-between;*/
+  /*justify-content: space-around;*/
+  /*align-items: center;*/
+  /*align-items: flex-start;*/
+  /*align-items: flex-end;*/
+  /*align-items: baseline;*/
+  /*align-content: space-between*/
+  /*align-content: center;*/
+}
+
+.box {
+  /*width: 33.3333333333%;*/
+  /*flex: 01;*/
+}
+
+.box2 {
+  /*order: 2;*/
+  /* -ms-flex-item-align: stretch;
+      align-self: stretch; */
+}
+
+.box7 {
+  /*order: 1;*/
+  /*order: 7;*/
+}
